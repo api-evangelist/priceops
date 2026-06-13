@@ -1,0 +1,86 @@
+name: PriceOps FinOps
+description: Financial operations context for PriceOps as a pricing infrastructure
+  vendor. PriceOps helps SaaS companies optimize revenue through data-driven pricing
+  decisions, reducing time-to-market for pricing changes and enabling advanced
+  analytics for price governance.
+url: https://www.priceops.net
+created: '2026-06-13'
+modified: '2026-06-13'
+vendor:
+  name: PriceOps
+  founded: 2022
+  headquarters: Wilmington, Delaware, USA
+  size: 2-10 employees
+  website: https://www.priceops.net
+  contact: info@priceops.net
+  linkedin: https://www.linkedin.com/company/priceops
+  github: https://github.com/priceops
+value_proposition:
+  - Increase revenue through optimized pricing strategies
+  - Reduce time-to-value for pricing page deployment (minutes vs months)
+  - Improve price governance via robust analytics
+  - Centralized pricing information management
+  - Support for complex SaaS pricing models including usage-based billing
+capabilities:
+  price_setting:
+    description: Simulate multiple pricing strategies and price models to identify
+      optimal price points that maximize value capture and revenue.
+    features:
+      - Price model simulation
+      - Multiple pricing strategy comparison
+      - Revenue and profit optimization analysis
+  packaging:
+    description: Design and manage product packaging tiers, feature bundling, and
+      plan structures for SaaS offerings.
+    features:
+      - Products and plans creation
+      - Feature bundling and tier management
+      - Add-ons configuration
+      - Strikethrough discounts
+      - Coupon code management
+      - Free trial configuration
+      - Custom price models (flat-rate, usage-based, hybrid)
+  pricing_pages:
+    description: Deploy and manage public-facing pricing pages with live updates
+      without requiring developer intervention.
+    features:
+      - Pricing page design and publishing
+      - No-code pricing page updates
+      - Embedded pricing via NPM library
+      - Checkout flow customization
+  payment_integration:
+    description: Connect pricing infrastructure to payment processors for billing
+      execution.
+    features:
+      - Stripe payment gateway integration
+      - No-code Stripe setup
+      - Subscription lifecycle management
+  analytics:
+    description: Monitor and validate pricing decisions through analytics and reporting.
+    features:
+      - Revenue analytics
+      - Price governance monitoring
+      - Customer subscription reporting
+  developer_api:
+    description: REST API for integrating PriceOps with backend systems, enabling
+      customer data synchronization and usage-based billing record submission.
+    features:
+      - Customer information retrieval API
+      - Usage record submission API
+      - Customer login flow (NPM library)
+      - Organization-scoped API key authentication
+pricing_model:
+  type: Custom / Contact Sales
+  public_pricing: false
+  notes: Pricing is not publicly listed. Schedule a demo at priceops.net to obtain
+    pricing details tailored to your organization.
+cost_considerations:
+  - No self-serve free tier identified as of June 2026
+  - Custom pricing based on company size and usage volume
+  - Stripe transaction fees apply separately for payment processing
+  - Evaluate total cost including Stripe fees when budgeting
+integration_notes:
+  - PriceOps integrates with Stripe as the primary payment processor
+  - Frontend integration uses the npm package 'priceops'
+  - Backend integration uses the REST API at https://engine.prod.priceops.net/api
+  - Authentication requires ORG_ID and API_KEY from organization settings

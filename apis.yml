@@ -1,0 +1,70 @@
+aid: priceops
+name: PriceOps
+description: PriceOps is a pricing and packaging infrastructure platform for SaaS
+  companies that enables simulation of pricing strategies, design of packaging tiers,
+  and launch of pricing pages within minutes. The platform provides REST APIs for
+  managing customer information, usage records, pricing plans, entitlements, and
+  monetization rules, along with integrations for payment gateways such as Stripe.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/priceops/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Pricing
+  - Packaging
+  - SaaS
+  - Monetization
+  - Plans
+  - Entitlements
+  - Usage Billing
+  - Stripe Integration
+  - Price Optimization
+  - Revenue Analytics
+apis:
+  - aid: priceops:priceops-api
+    name: PriceOps API
+    description: REST API for managing customer information and usage records within
+      the PriceOps pricing infrastructure platform. Supports retrieval of subscribed
+      customers and their active plans, posting usage records for metered billing,
+      and integrating pricing pages into SaaS applications.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
+    baseURL: https://engine.prod.priceops.net/api
+    tags:
+      - Customers
+      - Usage Records
+      - Plans
+      - Subscriptions
+      - Monetization
+    properties:
+      - type: Documentation
+        url: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
+      - type: OpenAPI
+        url: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
+common:
+  - type: Website
+    url: https://www.priceops.net
+  - type: Documentation
+    url: https://docs.priceops.net/documentation
+  - type: GitHubOrg
+    url: https://github.com/priceops
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/priceops
+  - type: Blog
+    url: https://www.priceops.net/blog
+  - type: Pricing
+    url: https://www.priceops.net/pricing
+  - type: StatusPage
+    url: https://www.priceops.net
+  - type: X
+    url: https://x.com/priceops
+  - type: Plans
+    url: plans/priceops-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/priceops-rate-limits.yml
+  - type: FinOps
+    url: finops/priceops-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

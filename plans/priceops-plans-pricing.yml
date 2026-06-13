@@ -1,0 +1,35 @@
+name: PriceOps Plans and Pricing
+description: PriceOps offers pricing and packaging infrastructure for SaaS companies.
+  Specific plan tiers and pricing details are available by scheduling a demo or
+  contacting the sales team. The platform supports usage-based billing, subscription
+  plans, and custom pricing models tailored to SaaS monetization needs.
+url: https://www.priceops.net/pricing
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Demo / Contact Sales
+    description: PriceOps does not publish self-serve pricing publicly. Pricing is
+      available upon request via demo scheduling. The platform is positioned as
+      enterprise pricing infrastructure, and plan details are customized based on
+      company size and usage requirements.
+    url: https://www.priceops.net/pricing
+    contact: info@priceops.net
+    features:
+      - Pricing page design and deployment
+      - Stripe payment gateway integration
+      - Live pricing updates without code changes
+      - Products and plans management
+      - Strikethrough discounts
+      - Coupon code creation
+      - Free trial management
+      - Add-ons support
+      - Custom price models (usage-based, flat-rate, hybrid)
+      - Revenue analytics and reporting
+      - Customer login flow integration
+      - Customer information and usage record API
+      - NPM library (priceops) for frontend embedding
+notes:
+  - PriceOps positions itself as monetization infrastructure for the AI era.
+  - Founded in 2022, headquartered in Wilmington, Delaware with presence in San Francisco.
+  - Pricing details require a sales demo; no self-serve tier is publicly listed.
+  - Contact info@priceops.net or schedule via Calendly for pricing information.

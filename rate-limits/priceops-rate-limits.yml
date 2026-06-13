@@ -1,0 +1,34 @@
+name: PriceOps Rate Limits
+description: PriceOps REST API rate limit details are not publicly documented. The
+  API uses API key-based authentication with an ORG_ID and API_KEY pair obtained
+  from the organization settings page. Rate limits are expected to be enforced at
+  the organization level and may vary by plan.
+url: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
+created: '2026-06-13'
+modified: '2026-06-13'
+authentication:
+  type: API Key
+  description: Requests are authenticated using an API_KEY passed via the Authorization
+    header, combined with an ORG_ID path parameter identifying the organization.
+  header: Authorization
+  location: Header and path parameter
+  notes:
+    - API_KEY and ORG_ID are found in the PriceOps organization settings page.
+    - Base URL is https://engine.prod.priceops.net/api
+endpoints:
+  - method: GET
+    path: /v1/integration/organization/{ORG_ID}/customers
+    description: Retrieve all customers subscribed to plans within the organization,
+      including their active plan details and available resource metrics.
+  - method: POST
+    path: /v1/integration/organization/{ORG_ID}/usage
+    description: Post usage records for metered billing. Requires a unique usage
+      record identifier, customer ID, resource name, and quantity consumed.
+rate_limits:
+  description: PriceOps does not publicly document specific rate limit thresholds.
+    Contact info@priceops.net for rate limit details applicable to your plan.
+  notes:
+    - Rate limits are not published in the public documentation as of June 2026.
+    - Limits likely vary by pricing tier and contract.
+    - Implement exponential backoff for production integrations.
+    - Use unique usage record IDs to prevent duplicate submissions.
