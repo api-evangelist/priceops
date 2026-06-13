@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.priceops.net",
+  "name": "PriceOps",
+  "description": "PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes.",
+  "url": "https://www.priceops.net",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/priceops",
+    "https://www.linkedin.com/company/priceops",
+    "https://x.com/priceops"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "developer support",
+    "url": "https://docs.priceops.net/documentation"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "PriceOps Pricing Plans",
+    "url": "https://www.priceops.net/pricing"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api"
+  },
+  "potentialAction": [
+    {
+      "@type": "Action",
+      "name": "Get Customers",
+      "description": "Retrieve all subscribed customers and their active plans for an organization",
+      "target": {
+        "@type": "EntryPoint",
+        "httpMethod": "GET",
+        "urlTemplate": "https://engine.prod.priceops.net/api/v1/integration/organization/{ORG_ID}/customers"
+      }
+    },
+    {
+      "@type": "Action",
+      "name": "Post Usage Records",
+      "description": "Submit metered usage records for a customer within an organization",
+      "target": {
+        "@type": "EntryPoint",
+        "httpMethod": "POST",
+        "urlTemplate": "https://engine.prod.priceops.net/api/v1/integration/organization/{ORG_ID}/usage"
+      }
+    }
+  ],
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Maximizing Business Growth Through Intentional Churn and Price Increase",
+      "url": "https://www.priceops.net/post/intentional-churn-and-price-increase",
+      "author": {
+        "@type": "Person",
+        "name": "Nikhil Kotcharlakota"
+      },
+      "datePublished": "2024-02-14",
+      "keywords": ["SaaS pricing", "pricing strategy", "customer churn"],
+      "description": "Distinguishes between unintentional and intentional churn from price increases, advocating for viewing selective churn positively when companies communicate changes clearly and demonstrate increased value delivery."
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "State of Shrinkflation 2024 and beyond",
+      "url": "https://www.priceops.net/post/state-of-shrinkflation-2024-and-beyond",
+      "author": {
+        "@type": "Person",
+        "name": "Nikhil Kotcharlakota"
+      },
+      "datePublished": "2024-02-12",
+      "keywords": ["Pricing Strategy", "Consumer Economics", "Retail"],
+      "description": "Examines the shrinkflation trend and growing retailer resistance, recommending alternative strategies such as product segmentation, operational cost cutting, and direct-to-consumer channels."
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Difference between Billing and Pricing infrastructure",
+      "url": "https://www.priceops.net/post/difference-between-billing-and-pricing-infrastructure",
+      "author": {
+        "@type": "Person",
+        "name": "Nikhil Kotcharlakota"
+      },
+      "datePublished": "2024-01-16",
+      "keywords": ["SaaS", "Pricing", "Billing Infrastructure"],
+      "description": "Clarifies the distinction between billing systems (subscription management, invoicing, tax compliance) and pricing infrastructure (strategy and optimization), emphasizing they serve different purposes in the order-to-cash process."
+    }
+  ]
+}
