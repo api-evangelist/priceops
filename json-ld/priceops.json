@@ -5,7 +5,7 @@
   "name": "PriceOps",
   "description": "PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes.",
   "url": "https://www.priceops.net",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/priceops",
     "https://www.linkedin.com/company/priceops",

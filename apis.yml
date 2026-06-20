@@ -5,7 +5,7 @@ description: PriceOps is a pricing and packaging infrastructure platform for Saa
   and launch of pricing pages within minutes. The platform provides REST APIs for
   managing customer information, usage records, pricing plans, entitlements, and
   monetization rules, along with integrations for payment gateways such as Stripe.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/priceops/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -28,7 +28,7 @@ apis:
       the PriceOps pricing infrastructure platform. Supports retrieval of subscribed
       customers and their active plans, posting usage records for metered billing,
       and integrating pricing pages into SaaS applications.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
     baseURL: https://engine.prod.priceops.net/api
     tags:
