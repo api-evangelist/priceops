@@ -1,47 +1,13 @@
 {
-  "provider": "priceops",
-  "blogUrl": "https://www.priceops.net/blog",
-  "lastFetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "Maximizing Business Growth Through Intentional Churn and Price Increase",
-      "url": "https://www.priceops.net/post/intentional-churn-and-price-increase",
-      "author": "Nikhil Kotcharlakota",
-      "published": "2024-02-14",
-      "tags": [
-        "SaaS pricing",
-        "pricing strategy",
-        "customer churn"
-      ],
-      "summary": "The article distinguishes between unintentional churn (indicating lost customer value) and intentional churn (resulting from price increases). When customers leave after a price increase announcement, it often signals they weren't deriving sufficient benefit from the product. The author advocates for viewing selective churn positively, provided companies clearly communicate price changes, demonstrate increased value delivery, and maintain consistent pricing positions despite customer objections."
-    },
-    {
-      "title": "State of Shrinkflation 2024 and beyond",
-      "url": "https://www.priceops.net/post/state-of-shrinkflation-2024-and-beyond",
-      "author": "Nikhil Kotcharlakota",
-      "published": "2024-02-12",
-      "tags": [
-        "Pricing Strategy",
-        "Consumer Economics",
-        "Retail"
-      ],
-      "summary": "Shrinkflation\u2014reducing product quantity while maintaining prices\u2014became prevalent during post-pandemic inflation as manufacturers sought to avoid sticker shock. However, retailers in Europe and India have begun actively combating this practice through consumer education displays and regulatory requirements for unit pricing. The article recommends brands pursue alternative strategies such as introducing multiple product sizes through segmentation, cutting operational expenses, and exploring direct-to-consumer channels rather than relying on quantity reductions."
-    },
-    {
-      "title": "Difference between Billing and Pricing infrastructure",
-      "url": "https://www.priceops.net/post/difference-between-billing-and-pricing-infrastructure",
-      "author": "Nikhil Kotcharlakota",
-      "published": "2024-01-16",
-      "tags": [
-        "SaaS",
-        "Pricing",
-        "Billing Infrastructure"
-      ],
-      "summary": "The article clarifies a common misconception in SaaS companies that billing and pricing infrastructure are identical. While billing systems handle subscription management, payment processing, invoicing, and tax compliance, pricing infrastructure focuses on determining strategy and optimizing price levels. The author emphasizes that pricing, billing, and packaging represent distinct operational components serving different purposes in the order-to-cash process."
-    }
-  ],
   "repo": "priceops",
   "feeds": [
+    {
+      "source": "https://www.priceops.net/blog-feed.xml",
+      "feed_url": "https://www.priceops.net/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/priceops",
       "feed_url": "https://www.linkedin.com/company/priceops",
@@ -50,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0
 }
