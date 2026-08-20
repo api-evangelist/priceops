@@ -25,6 +25,17 @@ specificationVersion: '0.23'
 tags:
   - Pricing
   - Packaging
+  - Software-as-a-Service
+  - Monetization
+  - Plans
+  - Entitlements
+  - Usage Billing
+  - Stripe Integration
+  - Price Optimization
+  - Revenue Analytics
+tags_raw:
+  - Pricing
+  - Packaging
   - SaaS
   - Monetization
   - Plans
@@ -44,6 +55,12 @@ apis:
     humanURL: https://docs.priceops.net/documentation/developers/customer-information-and-usage-record-api
     baseURL: https://engine.prod.priceops.net/api
     tags:
+      - Customers
+      - Usage Records
+      - Plans
+      - Subscription
+      - Monetization
+    tags_raw:
       - Customers
       - Usage Records
       - Plans
