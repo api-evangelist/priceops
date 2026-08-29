@@ -5,6 +5,17 @@ description: PriceOps is a pricing and packaging infrastructure platform for Saa
   and launch of pricing pages within minutes. The platform provides REST APIs for
   managing customer information, usage records, pricing plans, entitlements, and
   monetization rules, along with integrations for payment gateways such as Stripe.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: enterprise
   onboarding: approval
