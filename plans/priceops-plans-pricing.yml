@@ -38,3 +38,15 @@ notes:
   - Founded in 2022, headquartered in Wilmington, Delaware with presence in San Francisco.
   - Pricing details require a sales demo; no self-serve tier is publicly listed.
   - Contact info@priceops.net or schedule via Calendly for pricing information.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Demo / Contact Sales
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
